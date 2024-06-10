@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Twitter Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h2>Your Profile</h2>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button onclick="createProfile()">Create Profile</button>
+        </div>
+        <div class="timeline">
+            <h2>Your Timeline</h2>
+            <textarea id="tweetText" placeholder="What's on your mind?"></textarea>
+            <button onclick="postTweet()">Post Tweet</button>
+            <div id="tweets"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
